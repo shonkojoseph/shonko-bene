@@ -1,0 +1,67 @@
+/* Basic reset for better cross-browser rendering */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Style for the header */
+header {
+    background: #35424a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Style for the navigation bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #35424a;
+    font-weight: bold;
+}
+
+/* Style for main sections */
+main {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #35424a;
+}
+
+/* Style for the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #35424a;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
