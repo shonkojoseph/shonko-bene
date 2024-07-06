@@ -1,11 +1,11 @@
-/* Basic reset for better cross-browser rendering */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Style for the body */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -13,7 +13,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Style for the header */
+
 header {
     background: #35424a;
     color: white;
@@ -22,7 +22,6 @@ header {
     margin-bottom: 10px;
 }
 
-/* Style for the navigation bar */
 nav ul {
     list-style: none;
     padding: 0;
@@ -40,7 +39,6 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Style for main sections */
 main {
     background: white;
     padding: 20px;
@@ -55,7 +53,6 @@ h2 {
     color: #35424a;
 }
 
-/* Style for the footer */
 footer {
     text-align: center;
     padding: 10px;
