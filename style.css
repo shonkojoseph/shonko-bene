@@ -39,6 +39,7 @@ nav ul li a {
     font-weight: bold;
 }
 
+
 main {
     background: white;
     padding: 20px;
@@ -53,6 +54,7 @@ h2 {
     color: #35424a;
 }
 
+
 footer {
     text-align: center;
     padding: 10px;
@@ -61,4 +63,33 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+button {
+    background-color: #35424a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
